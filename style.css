@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #145b72;
+}
+
+
+    .submain {
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background-color: rgb(28, 32, 34);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 30%;
+        h1{
+            color: white;
+            font-size: xxx-large;
+        }
+        .inpdiv {
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+            #inputField {
+                width: 100%;
+                padding: 10px;
+                /* margin: 5px; */
+                background-color: white;
+                color: black;
+                text-align: right;
+                font-size: 20px;
+                transition: #fff 0.3s ease;
+            }
+        }
+
+        .btndiv {
+            width: 100%;
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn {
+            width: 70px;
+            padding: 10px;
+            margin-bottom: 5px;
+            margin: 5px;
+            text-align: center;
+            background-color: rgba(0, 174, 255, 0.308);
+            border-radius: 10px;
+            box-shadow: 1px 5px 5px  #77b9cf;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            /*transition: #fff 0.3s ease;
+            */&:hover{
+                color: #fff;
+                background-color: #166785;
+            }
+        }
+        .btnSym{
+            background-color: grey;
+            color: black;
+        }
+    }

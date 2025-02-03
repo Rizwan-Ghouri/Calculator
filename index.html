@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="submain">
+            <h1>Calculator</h1>
+            <div class="inpdiv">
+                <input type="number" id="inputField">
+            </div>
+            <div class="btndiv">
+                <button class="btn" onclick="clearInput()">C</button><br>
+                <button class="btn" onclick="numberInput(1)">1</button>
+                <button class="btn" onclick="numberInput(2)">2</button>
+                <button class="btn" onclick="numberInput(3)">3</button>
+                <button class="btn btnSym" onclick="operatorInput('+')">+</button><br>
+                <button class="btn" onclick="numberInput(4)">4</button>
+                <button class="btn" onclick="numberInput(5)">5</button>
+                <button class="btn" onclick="numberInput(6)">6</button>
+                <button class="btn btnSym" onclick="operatorInput('-')">-</button><br>
+                <button class="btn" onclick="numberInput(7)">7</button>
+                <button class="btn" onclick="numberInput(8)">8</button>
+                <button class="btn" onclick="numberInput(9)">9</button>
+                <button class="btn btnSym" onclick="operatorInput('*')">*</button><br>
+                <button class="btn btnSym" onclick="operatorInput('=')">=</button>
+                <button class="btn" onclick="numberInput(0)">0</button>
+                <button class="btn btnSym" onclick="decimalInput('.')">.</button>
+                <button class="btn btnSym" onclick="operatorInput('/')">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
