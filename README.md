@@ -6,7 +6,7 @@ Basic arithmetic operations (+, -, ×, ÷)</br>
 Responsive design</br>
 User-friendly UI</br>
 <h4>Live Demo</h4>
-Calculator
+<a href="https://rizwan-ghouri.github.io/Calculator/">Calculator</a>
 
 <h3>Technologies Used</h3>
 HTML,
